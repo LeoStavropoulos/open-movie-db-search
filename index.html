@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
+    <title>Movie Search App</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Movie Search App</h1>
+            <div class="search-bar">
+                <span></span>
+                <input type="text" name="search" id="search-box" placeholder="Search Movie Title...">
+                <div class="search-dropdown hidden">
+                    <ul class="movie-list">
+                        <li class="movie-list-items">
+                            <img src="" alt="movie thumbnail" id="thumbnail">
+                            <div class="movie-info">
+                                <p id="movie-title">Title</p>
+                                <p id="movie-year">Year</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section class="main-area">
+            <div class="movie-poster">
+                <img src="" alt="movie poster" id="movie-poster">
+            </div>
+            <div class="movie-details">
+                <header id="movie-title">Title</header>
+                <div class="movie-basic-details">
+                    <span id="year">Year</span>
+                    <span id="rating">Rating</span>
+                    <span id="release-date">Date</span>
+                </div>
+                <div id="genre">Genre</div>
+                <div id="writer">Writer</div>
+                <div id="actors">Actors</div>
+                <div id="plot">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nobis atque aliquid quia fugit eos maxime vero illum mollitia. Dolores odit sunt neque enim nostrum sit ipsum ducimus culpa iusto?</div>
+                <div id="language">Language</div>
+                <div id="awards">Awards</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
