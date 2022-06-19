@@ -96,10 +96,15 @@ a, a:active, a:visited {
 .search-dropdown::-webkit-scrollbar-thumb{
     background-color: var(--accent-color);
     border-radius: 10px;
+    opacity: .6;
 }
 
 .search-dropdown::-webkit-scrollbar-thumb:hover{
     opacity: .8;
+}
+
+.search-dropdown::-webkit-scrollbar-thumb:active{
+    opacity: 1;
 }
 
 .movie-list {
