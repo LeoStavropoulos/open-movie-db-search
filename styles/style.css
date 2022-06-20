@@ -67,7 +67,7 @@ a, a:active, a:visited {
     margin-left: 1em;
 }
 
-#search-field {
+#searchField {
     border-radius: 15px;
     height: 3em;
     width: 50vw;
@@ -112,7 +112,7 @@ a, a:active, a:visited {
     margin: .5em 0 0 0;
 }
 
-#not-found-error {
+#notFoundError {
     text-align: center;
     padding: 2em 0;
 }
@@ -143,11 +143,11 @@ a, a:active, a:visited {
     margin: 0 0 .4em 0;
 }
 
-#movie-title {
+#movieTitle {
     font-weight: 600;
 }
 
-#movie-year {
+#movieYear {
     color: var(--accent-color);
 }
 
@@ -162,7 +162,7 @@ a, a:active, a:visited {
     font-weight: 300;
 }
 
-#movie-poster{
+#moviePoster{
     max-height: 40vh;
     margin-block: 1em;
     margin-left: 1em;
@@ -266,7 +266,7 @@ a, a:active, a:visited {
         font-size: 1rem;
     }
 
-    #movie-poster {
+    #moviePoster {
         max-height: none;
         max-width: 500px;
         width: 25%;
