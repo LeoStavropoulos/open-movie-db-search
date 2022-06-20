@@ -15,11 +15,12 @@
         <header class="header">
             <h1 class="title">Movie <span style="color: var(--accent-color);">DB</span></h1>
             <div class="search-bar">
-                <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" fill="white"></path> </svg>
+                <svg style="color: inherit" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"> <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path> </svg>
                 <div class="search-box">
                     <input type="text" name="search" id="search-field" placeholder="Search Movie Title...">
                     <div class="search-dropdown hidden">
                         <ul class="movie-list">
+                            <li id="not-found-error hidden">No movies found!</li>
                             <li class="movie-list-item">
                                 <img src="https://m.media-amazon.com/images/M/MV5BOTI5ODc3NzExNV5BMl5BanBnXkFtZTcwNzYxNzQzMw@@._V1_SX300.jpg" alt="movie thumbnail" id="thumbnail">
                                 <div class="movie-info">

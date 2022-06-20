@@ -112,6 +112,11 @@ a, a:active, a:visited {
     margin: .5em 0 0 0;
 }
 
+#not-found-error {
+    text-align: center;
+    padding: 2em 0;
+}
+
 .movie-list-item {
     display: flex;
     align-items: center;
