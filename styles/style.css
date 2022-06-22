@@ -185,6 +185,7 @@ a, a:active, a:visited {
 #title {
     font-size: 2em;
     font-weight: 700;
+    line-height: 1em;
     text-align: center;
     color: var(--accent-color);
 }

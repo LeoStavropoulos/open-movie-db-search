@@ -96,7 +96,7 @@ function buildMovieList(movies) {
 
 function buildMainArea(movie) {
     const element = `
-    <img src="${movie.Poster}" alt="${movie.Title} poster" id="movie-poster">
+    <img src="${movie.Poster}" alt="${movie.Title} poster" id="moviePoster">
     <div class="movie-details">
         <header id="title">${movie.Title}</header>
         <ul class="movie-basic-details">
