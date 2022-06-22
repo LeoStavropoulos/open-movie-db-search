@@ -112,7 +112,7 @@ a, a:active, a:visited {
     margin: .5em 0 0 0;
 }
 
-#notFoundError {
+#errorMessage {
     text-align: center;
     padding: 2em 0;
 }
@@ -124,9 +124,10 @@ a, a:active, a:visited {
     margin-bottom: .5em;
 }
 
-#thumbnail {
+.thumbnail {
     width: 40%;
     max-width: 100px;
+    pointer-events: none;
 }
 
 .movie-info {
@@ -137,17 +138,19 @@ a, a:active, a:visited {
     justify-content: center;
     text-align: center;
     padding: .5em 0;
+    pointer-events: none;
 }
 
 .movie-info > p {
     margin: 0 0 .4em 0;
+    pointer-events: none;
 }
 
-#movieTitle {
+.movie-title {
     font-weight: 600;
 }
 
-#movieYear {
+.movie-year {
     color: var(--accent-color);
 }
 
