@@ -54,26 +54,45 @@ a, a:active, a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: .5em;
+    padding: 2em .5em;
 }
 
 .search-bar > svg {
-    font-size: 1.5em;
+    font-size: 2.5em;
+    padding-top: 0.2em;
+    color: #23ae95;
 }
 
 .search-box {
     position: relative;
     display: inline-block;
-    margin-left: 1em;
 }
 
 #searchField {
-    border-radius: 15px;
-    height: 3em;
-    width: 50vw;
-    max-width: 300px;
-    font-size: 0.8em;
-    padding: .2em 1em;
+    border: none;
+    background: none;
+    height: 2.5em;
+    width: 65vw;
+    max-width: 450px;
+    font-size: 1.2em;
+    padding: 0 1em;
+    color: var(--text-light-color);
+    border-bottom: 4px solid transparent;
+}
+
+#searchField:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    transition:  .5s;
+}
+
+#searchField:focus::placeholder {
+    opacity: 0;
+}
+
+#searchField::placeholder{
+    color: var(--accent-color);
+    opacity: 0.8;
 }
 
 .search-dropdown {
