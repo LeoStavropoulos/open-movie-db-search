@@ -41,6 +41,10 @@ a, a:active, a:visited {
 
 .header {
     font-size: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--bg-dark-color);
 }
 
 .title{
@@ -60,7 +64,7 @@ a, a:active, a:visited {
 .search-bar > svg {
     font-size: 2.5em;
     padding-top: 0.2em;
-    color: #23ae95;
+    color: var(--accent-color);
 }
 
 .search-box {
@@ -72,7 +76,7 @@ a, a:active, a:visited {
     border: none;
     background: none;
     height: 2.5em;
-    width: 65vw;
+    width: 60vw;
     max-width: 450px;
     font-size: 1.2em;
     padding: 0 1em;
@@ -103,7 +107,7 @@ a, a:active, a:visited {
     left: 3%;
     background-color: var(--bg-md-color);
     overflow-y: scroll;
-    max-height: 40vh;
+    max-height: 60vh;
     cursor: pointer;
 }
 
@@ -144,8 +148,8 @@ a, a:active, a:visited {
 }
 
 .thumbnail {
-    width: 40%;
-    max-width: 100px;
+    width: 30%;
+    max-width: 80px;
     pointer-events: none;
 }
 
@@ -182,6 +186,7 @@ a, a:active, a:visited {
     justify-content: space-between;
     font-size: 1rem;
     font-weight: 300;
+    margin-top: 12em;
 }
 
 #moviePoster{
@@ -266,6 +271,27 @@ a, a:active, a:visited {
     margin-right: 1em;
 }
 
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+    padding-block: 3em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--bg-dark-color);
+}
+
+footer > a{
+    font-style: italic;    
+    color: var(--accent-color);
+    opacity: 0.8;
+}
+
+footer > a:hover{
+    opacity: 1;
+}
+
 /*** Utility ***/
 
 .hidden {
@@ -281,11 +307,10 @@ a, a:active, a:visited {
     
     .main-area {
         width: 95%;
-        margin: auto;
+        margin: 16em auto;
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-around;
-        margin-top: 2em;
         font-size: 1rem;
     }
 
