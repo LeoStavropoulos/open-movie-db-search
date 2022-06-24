@@ -30,6 +30,7 @@ Factory](https://codingfactory.aueb.gr) bootcamp.
 * Fonts:    [Google Fonts](https://fonts.google.com)
 * Logo: [Ucraft](https://www.ucraft.com/)
 * Favicon/App Icons: [RealFaviconGenerator](https://realfavicongenerator.net/)
+* Splash Screen Icons: [Appscope](https://appsco.pe)
 * Color Scheme: [ColorSpace](https://mycolor.space)
 * README Icons: [Skill Icons](https://skillicons.dev)
 <!-- * Icons:    [Font Awesome](https://fontawesome.com) -->
