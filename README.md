@@ -28,7 +28,8 @@ Factory](https://codingfactory.aueb.gr) bootcamp.
 ## References
 * API: [The Open Movie Database](https://www.omdbapi.com)
 * Fonts:    [Google Fonts](https://fonts.google.com)
-<!-- * Icons:    [Font Awesome](https://fontawesome.com) -->
-* Favicon: [favicon.io](https://favicon.io)
+* Logo: [Ucraft](https://www.ucraft.com/)
+* Favicon/App Icons: [RealFaviconGenerator](https://realfavicongenerator.net/)
 * Color Scheme: [ColorSpace](https://mycolor.space)
 * README Icons: [Skill Icons](https://skillicons.dev)
+<!-- * Icons:    [Font Awesome](https://fontawesome.com) -->
