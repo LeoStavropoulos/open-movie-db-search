@@ -186,7 +186,7 @@ a, a:active, a:visited {
     justify-content: space-between;
     font-size: 1rem;
     font-weight: 300;
-    margin-top: 12em;
+    margin-block: 12em;
 }
 
 #moviePoster{
@@ -282,7 +282,7 @@ footer {
     background-color: var(--bg-dark-color);
 }
 
-footer > a{
+footer > a, footer > a:visited{
     font-style: italic;    
     color: var(--accent-color);
     opacity: 0.8;
