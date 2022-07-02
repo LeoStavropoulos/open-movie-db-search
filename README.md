@@ -8,13 +8,12 @@ Factory](https://codingfactory.aueb.gr) bootcamp.
 * Searches for movies or tv-series that exist in The Open Movie Database, by title. 
 * Displays movie's/series' basic info, such as title, release date, genre, plot, etc.
 * Shows movie's/series' poster image.
-* Gets IMDb, Rotten Tomatoes and MetaCritic ratings, provided that they exist in the database.
+* Gets IMDb, Rotten Tomatoes and MetaCritic ratings, provided that they exist in the database and redirects the user to the respective page.
 
 ## Upcoming Features
 * Install app on your device (PWA).
 * Add movie/series to watch-list.
 * Show movie's/series' trailer.
-* Go to IMDb's/RT's/MC's respective page. 
   
 ## Technologies Used
 ![HTML, CSS, JavaScript, jQuery, GIT](https://skillicons.dev/icons?i=html,css,js,jquery)

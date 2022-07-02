@@ -237,7 +237,7 @@ a, a:active, a:visited {
     width: 60%;
 }
 
-.movie-misc-details > #scores > span{
+.movie-misc-details > #scores > a > span{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,7 +246,7 @@ a, a:active, a:visited {
     margin: .5em;
 }
 
-.movie-misc-details > #scores > span > span{
+.movie-misc-details > #scores > a > span > span{
     margin: 0.2em;
 }
 
